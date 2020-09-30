@@ -204,6 +204,7 @@ namespace pr1
             PrintAirplanes(SortAirplanesByDate(structArray));
             Console.WriteLine("\nSortAirplanesByTotalTime: \n");
             PrintAirplanes(SortAirplanesByTotalTime(structArray));
+          
             Console.ReadKey();
         }
     }
